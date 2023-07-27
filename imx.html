@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<script src="imc.js"></script>
+<html>
+  <head>
+    <meta charset="UTF-8">
+   <title>Verificar Fase da Vida</title>
+  </head>
+  <body>
+    
+   
+    <center><h1>Verificar Fase da Vida</h1></center>
+    <form class="calcular">
+        <center> <h3 class="texto" id="descExercicio">
+            Criança - até 11 anos de idade;<br>
+            Adolescente - dos 12 até 20 anos de idade;<br>
+            Adulto - dos 21 até 65 anos de idade;<br>
+            Idoso - 65 anos ou mais;<br>
+         </h3></center>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome"><br><br>
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade"><br><br>
+      <input type="button" value="Avaliar a idade" onclick="verificarFase()"  style="background-color: greenyellow;">
+    
+    
+     <div id="resultado"> </div>  
+
+    </form>
+    <br>
+
+<footer>
+ <div class="rodapé"h2>©️ SENAI 2023</h2></div>
+</footer>
+  </body>
+</html>

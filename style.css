@@ -1,0 +1,43 @@
+*{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+.calcular{
+  margin: auto;
+  color: white;
+  background-color: green;
+  border: 20px;
+  padding: 15px;
+  width: 50%;
+  border-color: black;
+}
+
+h1{
+  margin-bottom: 20px;
+  background-color: greenyellow;
+  border: 20px;
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+
+}
+
+.rodapé{
+  margin-bottom: 10px;
+  background-color: greenyellow;
+  border: 10px;
+  padding: 15px;
+  width: 100%;
+  margin: auto;
+
+}
+html
+{
+  position:fixed;
+  width:100%;
+  height:100%;
+}
